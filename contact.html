@@ -22,26 +22,30 @@
     </header>
 
     <div class="mainB">
-        <div class="bioContent">Contact
-            <div class="bioContent container">
+        <div class="mainB content">
+            <h1>Contact</h1>
 
-                <form action="/action_page.php">
-                    
-                    <label for="name" style="padding-top: 15px">Name</label>
-                    <input type="text" name="full-name" placeholder="Full Name">
+            <form id="form" action="/action_page.php">
 
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="example@gmail.com">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="full-name" placeholder="Full Name">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="example@gmail.com">
+                    </li>
+                    <li>
+                        <label for="Message">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Text"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" value="Submit">
+            </form>
 
-                    <label for="Message">Message</label>
-                    <textarea id="subject" name="subject" placeholder="Text" style="margin: 8px 0px; width: 813px; height: 311px;"></textarea>
-
-                    <input type="submit" value="Submit">
-
-                </form>
-
-            </div>
         </div>
+    </div>
     </div>
 
     <footer class="footer">
