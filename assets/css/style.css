@@ -1,103 +1,102 @@
 h1 {
-    font-family: Georgia, Times, "Times New Roman", serif;
-    font-weight: bolder;
-    color: #4aaaa5;
-    border-bottom: 2px solid #dddddd;
-  }
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  color: #4aaaa5;
+  border-bottom: 2px solid #dddddd;
+}
   
-  h4 {
-    font-size: 30px;
-  }
+h4 {
+  font-size: 30px;
+}
 
-  body {
-      background-image: url("../images/white-waves.png");
-      font-family: 'Arial', Arial, Helvetica, sans-serif;
-  }
+body {
+  background-image: url("../images/white-waves.png");
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
+}
   
-  .header {
-      overflow: hidden;
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 100%;
-      background: white;
-      overflow: hidden;
-      padding: 0px;
-      margin: 0px;
-      border-bottom: 2px solid #cccccc;
-      color: #dddddd;
-  }
+.header {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: white;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  border-bottom: 2px solid #cccccc;
+  color: #dddddd;
+}
   
-  .header a {
-      float: left;
-      text-align: center;
-      padding: 25px;
-      text-decoration: none;
-      font-family: 'Georgia', 'Times New Roman', Times, serif; 
-      line-height: 25px;
-  }
+.header a {
+  float: left;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-family: 'Georgia', 'Times New Roman', Times, serif; 
+  line-height: 25px;
+}
   
-  .logo {
-      background: #4aaaa5;
-      margin-left: 30%;
-      color: white;
-      font-size: 35px;
-      font-weight: bolder;
-  }
+.logo {
+  background: #4aaaa5;
+  margin-left: 30%;
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
   
-  .about {
-      margin-left: 30%;
-      font-size: 16px;
-      color: #777777;
-  }
+.about {
+  margin-left: 30%;
+  font-size: 16px;
+  color: #777777;
+}
   
-  .contact {
-      font-size: 16px;
-      color: #777777;
+.contact {
+  font-size: 16px;
+  color: #777777;
+}
   
-  }
+.portfolio {
+  font-size: 16px;
+  color: #777777;
+}
+
+.mainB {
+  padding-top: 130px;
+  margin-left: 30%;
+}
   
-  .portfolio {
-      font-size: 16px;
-      color: #777777;
-  }
+.mainB.content {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0;
+  margin-bottom: 40px;
+  border: 1.5px solid #cccccc;
+  background: #ffffff;
+}
   
-  .mainB {
-    padding-top: 130px;
-    margin-left: 30%;
-  }
-  
-  .mainB.content {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 0;
-    margin-bottom: 40px;
-    border: 1.5px solid #cccccc;
-    background: #ffffff;
-  }
-  
-  .bio-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
+.bio-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
     
   
-  /* CONTACT HTML  */
+/* CONTACT HTML  */
   
-  input[type=text], textarea{
-      width: 812px;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
+input[type=text], textarea{
+  width: 812px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
     
     input[type=email] {
       width: 770px;
@@ -122,27 +121,71 @@ h1 {
       background-color: #45918c;
     }
     textarea {
-      height: 350px;
+      height: 250px;
     }
   
     label {
         display: block;
         width: 100%;
     }
-  
-  /* FOOTER */
-  .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background: #666666;
-      color: white;
-      text-align: center;
-      border-top: 8px solid #4aaaa5;
-      font-family: 'Georgia', 'Times New Roman', Times, serif;
-      font-size: 10px;
-      margin: 0px;
-      padding-top: 18px;
-      height: 25px;
+
+/* Portfolio */
+
+.showcase {
+  float: left;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.showcase img {
+  width: 200px;
+  height: auto;
+}
+
+.showcase h4 {
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  width: 100%;
+  bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #666666;
+  color: white;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 10px;
+  margin: 0px;
+  padding-top: 18px;
+  height: 25px;
+}
+
+@media screen and (max-width: 980px) {
+  .logo {
+    float: left;
+    width: 30%;
+    margin-left: 10%;
   }
+  .about {
+    margin-left: 50px;
+  } 
+  
+  .portfolio, .contact {
+    float: left;
+    line-height: 0%;
+  }
+
+  .mainB {
+    width: 50%;
+    padding-left: 0;
+  }
+}
